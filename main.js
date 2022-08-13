@@ -10,10 +10,7 @@ toggleChange.addEventListener("click", () => {
 // Event Swiper Slider Options
 const swiperBanner = new Swiper(".banner-swiper", {
   slidesPerView: 1,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  navigation: false,
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,

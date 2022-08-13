@@ -422,7 +422,11 @@ nav a.menu-item {
 /* Popular Area */
 
 .popular__area {
-  padding: 60px 0;
+  padding: 80px 0;
+  padding-bottom: 0;
+}
+
+.popular__area:last-of-type {
   padding-bottom: 80px;
 }
 
